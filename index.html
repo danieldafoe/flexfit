@@ -8,8 +8,18 @@
     html, body {
       font-weight:300;
       font-size:120%;
+      font-family:sans-serif;
       margin:0;
       padding:0;
+    }
+    h1, h2 {
+      letter-spacing:1px;
+    }
+    h1 {
+      font-size:350%;
+    }
+    h2 {
+      font-size:200%;
     }
     .wrapper {
       min-height:100vh;
@@ -21,12 +31,17 @@
       max-width:50%;
       margin:0 auto;
     }
+    .logo span {
+      padding:.5em .3em;
+      background:#222;
+      color:#f3f3f3;
+    }
   </style>
 </head>
 <body>
   <div class="wrapper">
     <div class="inner">
-      <h1>flexfit is coming soon.</h1>
+      <h1 class="logo">flex<span>fit</span> is coming soon.</h1>
       <p>(As in...once I'm home from work.)</p>
     </div>
   </div>
